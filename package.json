@@ -21,9 +21,7 @@
 		"typescript": "^5.9.3",
 		"vite": "^7.2.6",
 		"vite-plugin-devtools-json": "^1.0.0",
-		"vite-plugin-inspect": "^11.3.3"
-	},
-	"dependencies": {
+		"vite-plugin-inspect": "^11.3.3",
 		"@rollup/rollup-win32-x64-msvc": "^4.53.3"
 	}
 }
