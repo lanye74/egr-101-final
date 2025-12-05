@@ -21,6 +21,7 @@
 	:root {
 		--spacing-l: 2em;
 		--spacing-m: 1em;
+		--spacing-s: 0.5em;
 
 		--font-size-xl: 3em;
 		--font-size-l: 2em;
@@ -51,10 +52,12 @@
 		overflow-x: hidden;
 
 
-		background-image:
-			repeating-linear-gradient(0deg, var(--color-light-light) 0, var(--color-light-light) 0.0625em, transparent 0.0625em, transparent var(--background-size)), /* Horizontal lines */
-			repeating-linear-gradient(90deg, var(--color-light-light) 0, var(--color-light-light) 0.0625em, transparent 0.0625em, transparent var(--background-size)); /* Vertical lines */
+		background-image: repeating-linear-gradient(0deg, var(--color-light-light) 0, var(--color-light-light) 0.0625em, transparent 0.0625em, transparent var(--background-size)),
+			repeating-linear-gradient(90deg, var(--color-light-light) 0, var(--color-light-light) 0.0625em, transparent 0.0625em, transparent var(--background-size));
+
 		background-size: var(--background-size);
+		/* whatever */
+		background-position: calc(var(--background-size) / 2) calc(var(--background-size) / 2);
 	}
 
 	:global(h1, h2, h3) {

@@ -1,6 +1,6 @@
 <style>
 	h2 {
-		margin-block: var(--spacing-m) var(--spacing-m);
+		margin-block: var(--spacing-s) var(--spacing-m);
 		font-size: var(--font-size-l);
 	}
 
