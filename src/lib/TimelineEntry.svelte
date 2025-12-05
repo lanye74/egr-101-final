@@ -34,7 +34,7 @@
 			/* grrr */
 			/* calc((var(--font-size-l) - var(--font-size-ms)) / 2); */
 			/* the brainrot */
-			0.6em;
+			0.607em;
 	}
 
 	/* vertical bar */
@@ -42,12 +42,12 @@
 		content: "";
 		position: absolute;
 
-		translate: calc(-1 * var(--spacing-l)) calc(-100% + 0.5em);
-		width: 0.125em;
+		translate: calc(-1 * var(--spacing-l)) -100%;
+		width: var(--border-width);
 
 		height: calc(100% + var(--spacing-m));
 
-		background: linear-gradient(var(--color-light) 0%, var(--color-gray) 20%, var(--color-gray) 80%, var(--color-light) 100%);
+		background: var(--color-gray);
 	}
 </style>
 

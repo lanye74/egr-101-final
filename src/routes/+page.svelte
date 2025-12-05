@@ -37,10 +37,6 @@
 
 <article>
 	<section>
-		<h2>The roadmap will go here</h2>
-		<p>Promise!</p>
-	</section>
-	<section>
 		<h2>Why?</h2>
 		<blockquote>
 			<p>The reason I choose to become an engineer hasn't changed: I have an insatiable love of learning, and computer science is such a vast field. There is so much to do, and programming in particular satisfies a number of my core needs: with the problem-solving it requires, the pattern recognition is necessitates, the freedom to create it grants, and the self-expression it thus grants. There's no right way to do computer science. I focus on web design and accessibility, but just as easily, one could focus on embedded systems, databasing, cybersecurity, data science, programming language design, machine learning, operating systems, graphics…</p>
