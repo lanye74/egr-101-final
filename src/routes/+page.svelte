@@ -6,6 +6,7 @@
 
 	p {
 		margin-block-end: var(--spacing-m);
+		font-size: var(--font-size-m);
 	}
 
 	blockquote {
@@ -21,7 +22,7 @@
 			content: "\“";
 			position: absolute;
 
-			transform: translate(var(--spacing), var(--spacing));
+			translate: var(--spacing) var(--spacing);
 
 			color: var(--color-gray);
 			font-style: normal;
@@ -33,7 +34,8 @@
 </style>
 
 
-<main>
+
+<article>
 	<section>
 		<h2>The roadmap will go here</h2>
 		<p>Promise!</p>
@@ -69,4 +71,4 @@
 			<p>In the following 10 years, I hope that I get to keep doing what I love, without ever feeling stagnant. The thing I fear the most is getting relegated to a managerial position where I no longer get to write code or solve problems.</p>
 		</blockquote>
 	</section>
-</main>
+</article>

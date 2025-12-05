@@ -1,7 +1,13 @@
 <script lang="ts">
 	import "@fontsource/pt-serif";
 	import "@fontsource-variable/funnel-sans";
+	import type {Snippet} from "svelte";
 
+	import Timeline from "$lib/Timeline.svelte";
+
+	type Props = {
+		children: Snippet;
+	};
 
 
 	let {children} = $props();
@@ -13,7 +19,9 @@
 		--spacing-m: 1em;
 
 		--font-size-l: 2em;
-		--font-size-m: 1em;
+		--font-size-ml: 1.5em;
+		--font-size-m: 1.125em;
+		--font-size-ms: 0.875em;
 
 		--color-light: #eee;
 		--color-gray: #aaa;
@@ -38,10 +46,23 @@
 
 	main {
 		padding: var(--spacing-l);
+
 		border: 0.125em solid var(--color-light);
+		border-width: 0 0.125em;
 	}
 </style>
+
+
+
+<!-- timeline -->
+<section>
+	<Timeline />
+</section>
 
 <main>
 	{@render children()}
 </main>
+
+<footer>
+
+</footer>

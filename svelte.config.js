@@ -13,10 +13,7 @@ const config = {
 		adapter: adapter(),
 
 		alias: {
-			"$wiki": "src/lib/components/wiki/",
-			"$components": "src/lib/components/",
-			// "$types": "src/lib/types/",
-			"$utils": "src/lib/utils/",
+			"$lib": "src/lib/"
 		}
 	}
 };
