@@ -29,6 +29,10 @@
 
 		--border-width: 0.125em;
 
+		--background-size: 3em;
+
+
+		--color-light-light: #eee;
 		--color-light: #ddd;
 		--color-gray: #aaa;
 	}
@@ -44,6 +48,12 @@
 		font-family: "PT Serif";
 
 		overflow-x: hidden;
+
+
+		background-image:
+			repeating-linear-gradient(0deg, var(--color-light-light) 0, var(--color-light-light) 0.0625em, transparent 0.0625em, transparent var(--background-size)), /* Horizontal lines */
+			repeating-linear-gradient(90deg, var(--color-light-light) 0, var(--color-light-light) 0.0625em, transparent 0.0625em, transparent var(--background-size)); /* Vertical lines */
+		background-size: var(--background-size);
 	}
 
 	:global(h1, h2, h3) {
