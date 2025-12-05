@@ -1,6 +1,7 @@
 <script lang="ts">
 	import "@fontsource/pt-serif";
 	import "@fontsource-variable/funnel-sans";
+
 	import type {Snippet} from "svelte";
 
 	import Timeline from "$lib/Timeline.svelte";
@@ -10,8 +11,8 @@
 	};
 
 
-	let {children} = $props();
 
+	let {children}: Props = $props();
 
 	let headerHeight: number = $state(0);
 </script>
@@ -62,26 +63,6 @@
 
 
 
-	main {
-		padding: var(--spacing-l);
-
-		border: var(--border-width) solid var(--color-gray);
-		border-width: 0 var(--border-width);
-
-		&::after {
-			content: "";
-			position: absolute;
-			width: 100vw;
-			height: var(--border-width);
-
-			left: 0;
-
-			background: var(--color-gray);
-		}
-	}
-
-
-
 	header {
 		text-align: center;
 		padding: var(--spacing-l);
@@ -128,6 +109,26 @@
 			right: unset;
 		}
 	}
+
+
+
+	main {
+		padding: var(--spacing-l);
+
+		border: var(--border-width) solid var(--color-gray);
+		border-width: 0 var(--border-width);
+
+		&::after {
+			content: "";
+			position: absolute;
+			width: 100vw;
+			height: var(--border-width);
+
+			left: 0;
+
+			background: var(--color-gray);
+		}
+	}
 </style>
 
 
@@ -149,7 +150,3 @@
 <main>
 	{@render children()}
 </main>
-
-<footer>
-
-</footer>

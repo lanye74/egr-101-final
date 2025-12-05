@@ -90,7 +90,7 @@
 		</p>
 
 		<p>
-			My dream goal—and perhaps a pipe dream it is, now, with the current housing prices—is to buy a house and settle down with my partner.
+			My dream goal—and perhaps a pipe dream it is, now, with the current housing prices—is to buy a house and settle down, while still doing work that I love.
 		</p>
 	</TimelineEntry>
 </ul>
