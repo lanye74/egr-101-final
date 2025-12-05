@@ -15,7 +15,7 @@
 <style>
 	li {
 		position: relative;
-		anchor-name: --li;
+		padding-inline-end: var(--spacing-l);
 	}
 
 	li::marker {

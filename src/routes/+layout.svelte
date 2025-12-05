@@ -29,7 +29,7 @@
 
 		--border-width: 0.125em;
 
-		--color-light: #eee;
+		--color-light: #ddd;
 		--color-gray: #aaa;
 	}
 
